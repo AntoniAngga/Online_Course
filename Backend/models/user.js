@@ -11,12 +11,7 @@ module.exports = function(sequelize, DataTypes) {
     github_token: DataTypes.STRING,
     facebook_id: DataTypes.STRING,
     facebook_token: DataTypes.STRING
-  }, {
-    classMethods: {
-      associate: function(models) {
-        // associations can be defined here
-      }
-    }
   });
+
   return User;
 };

@@ -4,9 +4,8 @@ module.exports = {
     return queryInterface.createTable('Degree_courses', {
       id: {
         allowNull: false,
-        autoIncrement: true,
         primaryKey: true,
-        type: Sequelize.INTEGER
+        type: Sequelize.STRING
       },
       degree_id: {
         type: Sequelize.STRING
